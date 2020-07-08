@@ -1,0 +1,14 @@
+object : diner
+
+attributes :
+dishesTotal : "50"
+dishesReady : "5"
+dishesNeeded : "10"
+isOpen : true
+menu : ["eggs", "bacon", "potatoes", "bread"]
+
+methods :
+calculateDishesNeeded : 10 - 5 = 5
+cook : dishesTotal = 55
+addDish : ["eggs", "bacon", "potatoes", "bread", "coffee"]
+close : isOpen = false
