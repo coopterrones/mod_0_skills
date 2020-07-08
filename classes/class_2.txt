@@ -1,0 +1,15 @@
+class : waitlist
+
+attributes :
+partyName (string)
+list (array)
+totalParties (int)
+waitingParties (int)
+seatedParties (int)
+atCapacity (bool)
+
+method :
+addParty (append a partyName to list)
+calculateTablesNeeded (subtracts seatedParties from totalParties)
+full (sets atCapacity to true)
+removeName (removes partyName from list)
