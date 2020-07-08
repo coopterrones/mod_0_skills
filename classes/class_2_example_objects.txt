@@ -1,0 +1,15 @@
+Object : MatsuhisaList
+
+Attributes :
+partyName : "Terrones"
+list : ["Jones", "Smith", "Brown", "Dobbs"]
+totalParties : 4
+waitingParties : 2
+seatedParties : 2
+atCapacity : false
+
+Methods:
+addParty : ["Jones", "Smith", "Brown", "Dobbs", "Terrones"]
+calculateTablesNeeded : 4 - 2 = 2
+full : atCapacity = true
+removeName : ["Smith", "Brown", "Dobbs", "Terrones"]
