@@ -1,0 +1,14 @@
+class : kitchen
+
+attributes :
+dishesTotal (int)
+dishesReady (int)
+dishesNeeded (int)
+isOpen (bool)
+menu (array)
+
+methods :
+calculateDishesNeeded (subtracts dishesReady from dishesNeeded)
+cook (adds 5 to dishesTotal)
+addDish (append a new item to menu array)
+close (sets isOpen to false)
